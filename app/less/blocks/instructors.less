@@ -1,0 +1,48 @@
+.instructors-wrapper {
+	display: flex;
+	flex-direction: column;
+	
+	margin-bottom: 60px;
+	align-items:center;
+}
+.instructor {
+	margin-bottom: 30px;
+}
+.instructor__photo {
+	margin-bottom: 10px;
+}
+.instructor__name {
+color: #000000;
+font-family: "Playfair Display",serif;
+font-size: 30px;
+font-weight: 400;
+/* Text style for "S, imon Ad" */
+letter-spacing: 0.28px;
+text-align: center;
+margin-bottom: 10px;
+}
+.instructor__students {
+color: #2ab738;
+font-family: Avenir;
+font-size: 15px;
+font-weight: 500;
+/* Text style for "5,000 stud" */
+letter-spacing: 0.14px;
+text-align: center;
+}
+@media (min-width: 620px) {
+	
+}
+@media (min-width:1460px) {
+	.instructors-wrapper {
+		margin-bottom: 255px;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.instructor{
+		margin-bottom: 0px;
+	}
+	.instructor__photo {
+	margin-bottom: 30px;
+	}
+}
